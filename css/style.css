@@ -7,14 +7,24 @@
     right: 40%;
     transform: translate(-50%, -50%);
  }
- body{
-     background-color: black;
-     color: white;
- }
+
  entry-field{
      color:gray;
      background-color:black;
-     border-width:0px;
-     
-     
+     border-width:0px;    
  }
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+#canvas {
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
